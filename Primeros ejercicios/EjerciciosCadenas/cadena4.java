@@ -6,6 +6,11 @@ public class cadena4 {
 
     public static void main(String[] args) {
 
+        /*
+         * Leer una cadena de hasta 80 caracteres y pasarla en función de una variable
+         * de opción a mayúsculas ó a minúsculas e imprimir la cadena resultante
+         */
+
         String frase, ComeBack;
         int opcion = 0;
 
