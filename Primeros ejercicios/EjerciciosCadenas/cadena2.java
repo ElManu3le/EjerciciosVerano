@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class cadena2 {
 	public static void main(String[] args) {
+		/*
+		 * Dada una frase de no más de 80 caracteres hacer un programa que busque
+		 * cuántas mayúsculas y minúsculas tiene y lo imprima
+		  */
 
 		int t, contmay = 0, contmin = 0;
 		System.out.println("Dime una frase");
@@ -22,13 +26,17 @@ public class cadena2 {
 				MIN = MIN + cl;
 				contmin++;
 			}
+			teclado.close();
 
 		}
+		
+		
 
 		System.out.println("el numero de mayusculas es:  " + contmay);
 		System.out.println("el numero de minusculas es:  " + contmin);
 		System.out.println("las mayusculas son:  " + MAY);
 		System.out.println("las minusculas son:  " + MIN);
+		
 
 	}
 

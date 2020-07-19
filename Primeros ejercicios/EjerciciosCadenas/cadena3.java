@@ -6,7 +6,10 @@ public class cadena3 {
 
     public static void main(String[] args) {
 
-        // System.out.println("Dime una frase para leer: ");
+        /*
+         * Programa que lea una frase y una palabra y que nos diga la posición de dicha
+         * palabra en la frase o un mensaje indicando que no está.
+         */
         
         String frase, palabra_encontrar;
 
@@ -24,6 +27,7 @@ public class cadena3 {
        }else{
            System.out.println("Palabra no encontrada.");
        }
+       teclado.close();
        
 
     }
