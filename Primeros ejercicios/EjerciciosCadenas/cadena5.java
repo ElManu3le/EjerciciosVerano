@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class cadena5 {
     public static void main(String[] args) {
+
+        /* */
         int contador;
         String frase, lapar = "", laimpar = "";
         Scanner teclado = new Scanner(System.in);
@@ -18,7 +20,7 @@ public class cadena5 {
 
                 } else {
                     laimpar = laimpar + frase.charAt(contador);
-                }
+                }teclado.close();
             }
 
         

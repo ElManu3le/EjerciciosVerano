@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class cadena7 {
 
     public static void main(String[] args) {
+        /* */
 
         int t, Minuscount = 0, Maycont = 0, Numscount = 0;
         String frase;
@@ -27,7 +28,7 @@ public class cadena7 {
             if ((cl > 47) && (cl < 58)) {
                 Numscount++;
 
-            }
+            }teclado.close();
 
         }
 

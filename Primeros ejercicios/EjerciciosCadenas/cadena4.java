@@ -23,9 +23,12 @@ public class cadena4 {
             System.out.println("Escribe una frase de máximo 80 caracteres");
             frase = teclado.nextLine();
 
+
             System.out.println("1.- Pasar la frase a mayusculas-->");
 
             System.out.println("2.- Pasar la frase a minusculas-->");
+
+            System.out.println("0.- Salir-->");
 
             opcion = teclado.nextInt();
             teclado.nextLine();
