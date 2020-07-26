@@ -30,6 +30,7 @@ public class ejercicio4 {
         } else {
             System.out.println("El volumen del cilindro es: " + pi*radio*radio*altura);
         }
+        teclado.close();
 
     }
 
