@@ -25,6 +25,7 @@ public class cadena {
             System.out.println(cadena.substring(0, x));
 
         }
+        teclado.close();
 
     }
 

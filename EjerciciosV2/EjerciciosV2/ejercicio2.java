@@ -17,6 +17,7 @@ public class ejercicio2 {
         }else{
             System.out.println("B es el valor máximo ");
         }
+        teclado.close();
 
         
 

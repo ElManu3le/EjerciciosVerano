@@ -16,7 +16,7 @@ public class ejercicio1 {
         for(int x=0;x<N;x++){
             System.out.println("Modulo ehjecutandose UwU");
 
-        }
+        }teclado.close();
 
 
 
