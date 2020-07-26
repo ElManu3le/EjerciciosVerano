@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class cadena7 {
 
     public static void main(String[] args) {
-        /* */
+        /*
+         * Leer una frase por teclado y escribir a continuación cuantas mayúsculas,
+         * minúsculas y números contiene.
+         */
 
         int t, Minuscount = 0, Maycont = 0, Numscount = 0;
         String frase;
